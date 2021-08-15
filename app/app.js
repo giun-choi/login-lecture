@@ -3,8 +3,8 @@
 // 모델
 const express = require("express");
 const bodyParser = require("body-parser");
+const logger = require("./src/config/logger");
 const dotenv = require("dotenv");
-const morgan = require("morgan");
 
 const app = express();
 dotenv.config();
